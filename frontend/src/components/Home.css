@@ -1,0 +1,145 @@
+.doctorImg img{
+    width: 80%;
+    height: 60%;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.doctorText{
+    margin-top: 80px;
+    margin-left: 100px;
+    font-weight: 700;
+    color: white;
+}
+.doctorText p{
+    font-style: oblique;
+}
+.ourDoctors{
+	background-image: url(../images/3.jpg);
+    display: flex;
+    justify-content: center;
+}
+.ourDoctors .ourDoctorsDetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ourDoctors .ourDoctorsDetails > *{
+    margin: 120px;
+}
+.ourDoctors .doctorsInfo{
+    background-image: linear-gradient(to right, #eb1e75, #000000);
+    text-align: center;
+}
+.doctorsInfo h5{
+   color: white;
+   padding-top: 5px;
+}
+
+.footer{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-color: rgb(252, 252, 252);
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.footer > div:first-child{
+    display: flex;
+}
+.footer > div > *{
+    width: 33.33%;
+}
+
+.footer .brandIcon > *{
+    border: 1px solid #eb1e75;
+    border-radius: 15px;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    color: #eb1e75;
+    transition: .5s;
+}
+.footer .brandIcon > *:hover{
+    background-color: #eb1e75;
+    color: white;
+}
+.footer .callNow{
+    background-image: linear-gradient(to right, #eb1e75, #000000);
+    width: 140px;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.footer small{
+    color: gray;
+    font-weight: 600;
+}
+.banner-section {
+	background-image: url(../images/Mask\ Group\ 5.jpg);
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img {
+	border-radius: 10px;
+	box-shadow: 0 10px 15px -15px black;
+}
+
+.banner-section h2 {
+	font-size: 40px;
+	color: #eb1e75;
+}
+
+.banner-section p {
+    font-style: oblique;
+	color: rgb(0, 0, 0);
+}
+.topnav {
+    background-color: #000;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #eb1e75;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+.about_us {
+	background-image: url(../images/3.jpg);
+	min-height: 80vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-style: oblique;
+	color: rgb(0, 0, 0);
+}
+.CC:hover {
+    background-color: rgb(228, 188, 255);
+  } 
+.button-style{
+	padding: 16px 21px;
+    background-color: #eb1e75;
+    border-radius: 20px;
+}
